@@ -1,49 +1,44 @@
-#	Titre du projet: Création d'une boutique
+# Project Title: Creating a Shop
 
-#	Objectif:
+## Objective:
 
-	- Ecrire un programme qui acceuil l'utilisateur en tant que client de la boutique.
-	- Le programme prend son nom en entrée.
-	- Identifie le client (si il/elle est à son premier,deuxième ou troisième passage).
-	- Propose les produits et services dont dispose la boutique.
-	- Le client passe sa commande.
-	- Sa liste d'achat est affichée pour demande de confirmation.
-	- Une fois la liste d'achat confirmée, le client à droit à une facture.
-	- Si le client est à son troisième passage, alors il bénéficie d'une réduction de 2%
-	
-	
-#	Comment ça marche ?
+- Write a program that welcomes the user as a customer of the shop.
+- The program takes the user's name as input.
+- Identifies the customer (whether it's their first, second, or third visit).
+- Offers the products and services available in the shop.
+- The customer places their order.
+- Their shopping list is displayed for confirmation.
+- Once the shopping list is confirmed, the customer receives an invoice.
+- If the customer is on their third visit, they receive a 2% discount.
 
-	1. Accueil:
-		Une fois le programme lancée, il demande et enregistre le nom de l'utilisateur.
-		Il lui souhaite la bienvenue.
-		Le programme lui propose ensuite les produits et services de la boutique.
-		Remarque: Le prix de chaque produit est affiché à sa droite 
-		
-	2. Achat de produits:
-		Un unique identifiant est attribué à chaque produit en stock.
-		Le client passe sa commande en se servant de ces identifiants.
-		Une fois les produits choisi, le client devra préciser la quantité voulu de 
-			chaque produits choisi.
-		Une liste de confirmation est affiché par le programme tout en précisant les 
-			différents totaux pour chaque produit.
-		Le client devra confirmer la liste d'achat ou choisir de repartir à l'accueil.
-		
-	3. Facturation:
-		Une facture est attribuée à tout client dont l'achat a été confirmé.
-		Les factures sont enregistrées dans le dossier "Clients"
-		Si le client est à plus d'un passage, il peut consulter ses anciennes factures 
-			en cas de besoin.
-		Chaque client est attribué un réduction de 2% à partir du 3ème passage.
-		
-		
-#	Code
+## How Does It Work?
 
-		Le code est écrit en langage python et nous avons fait usage d'un maximum de 
-		fonctions pour faciliter la comprehension du code.
-		Chaque fonctions dans le code a pour rôle de réaliser une ou deux tâches bien 
-		précise(s).
-		
-		
-Le code source a été commenté de façon explicite pour une meilleure comprehension. Merci
-	
+1. Welcome:
+    - Once the program is launched, it asks for and records the user's name.
+    - It welcomes the user.
+    - The program then offers the products and services of the shop.
+    - Note: The price of each product is displayed to the right of it.
+
+2. Product Purchase:
+    - A unique identifier is assigned to each product in stock.
+    - The customer places their order using these identifiers.
+    - Once the products are chosen, the customer must specify the desired quantity of each selected product.
+    - A confirmation list is displayed by the program, specifying the different totals for each product.
+    - The customer must confirm the shopping list or choose to return to the welcome screen.
+
+3. Invoicing:
+    - An invoice is generated for any customer whose purchase has been confirmed.
+    - Invoices are stored in the "Clients" folder.
+    - If the customer has more than one visit, they can review their previous invoices if needed.
+    - Each customer is given a 2% discount starting from the third visit.
+
+## Code
+
+- The code is written in Python and we have used as many functions as possible to facilitate understanding of the code.
+- Each function in the code is designed to perform one or two specific tasks.
+
+The source code has been explicitly commented for better understanding. Thank you.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](./LICENSE.md) file for details.
