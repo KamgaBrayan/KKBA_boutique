@@ -4,19 +4,19 @@ import re
 
 # creation of the shop
 
-MTC = {"Name": "Excellence in Mathematics Tle C", "Barcode": "01", "Price": "6400", "Stock": 10}
-MTD = {"Name": "Excellence in Mathematics Tle D", "Barcode": "02", "Price": "6000", "Stock": 10}
-MTA = {"Name": "Excellence in Mathematics Tle A", "Barcode": "03", "Price": "5500", "Stock": 10}
+MTC = {"Name": "Understanding Mathematics", "Barcode": "01", "Price": "6400", "Stock": 10}
+MTD = {"Name": "Applied Mathematics", "Barcode": "02", "Price": "6000", "Stock": 10}
+MTA = {"Name": "Mastery in pure Mathematics", "Barcode": "03", "Price": "5500", "Stock": 10}
 Mathematics = [MTC, MTD, MTA]
-PTC = {"Name": "Physics Tle C", "Barcode": "04", "Price": "6600", "Stock": 10}
-PTD = {"Name": "Physics Tle D", "Barcode": "05", "Price": "6600", "Stock": 10}
+PTC = {"Name": "Newlook in Physics", "Barcode": "04", "Price": "6600", "Stock": 10}
+PTD = {"Name": "Nelcon and Parker Physics", "Barcode": "05", "Price": "6600", "Stock": 10}
 Physics = [PTC, PTD]
-CTC = {"Name": "Chemistry Tle C", "Barcode": "06", "Price": "5000", "Stock": 10}
-CTD = {"Name": "Chemistry Tle D", "Barcode": "07", "Price": "5000", "Stock": 10}
+CTC = {"Name": "Understanding Chemistry", "Barcode": "06", "Price": "5000", "Stock": 10}
+CTD = {"Name": "Organic Chemistry", "Barcode": "07", "Price": "5000", "Stock": 10}
 Chemistry = [CTC, CTD]
-ITC = {"Name": "Computer Science Tle C", "Barcode": "08", "Price": "4000", "Stock": 10}
-ITD = {"Name": "Computer Science Tle D", "Barcode": "09", "Price": "4000", "Stock": 10}
-ITA = {"Name": "Computer Science Tle A", "Barcode": "10", "Price": "3000", "Stock": 10}
+ITC = {"Name": "Mastery in Computer Science", "Barcode": "08", "Price": "4000", "Stock": 10}
+ITD = {"Name": "Programming - Computer Science", "Barcode": "09", "Price": "4000", "Stock": 10}
+ITA = {"Name": "Computer Architecture", "Barcode": "10", "Price": "3000", "Stock": 10}
 ComputerScience = [ITD, ITC, ITA]
 AT = {"Name": "Interaction in English Tle", "Barcode": "11", "Price": "4000", "Stock": 10}
 English = [AT]
